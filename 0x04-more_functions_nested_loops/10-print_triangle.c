@@ -22,6 +22,7 @@ while (ii < i)
 _putchar('#');
 ii++;
 }
+
 _putchar('\n');
 ii++;
 }
