@@ -6,7 +6,7 @@
  * Return: the cpoy
  */
 
-void _strcpy(char *dest, char *src)
+void *_strcpy(char *dest, char *src)
 {
 char *start = dest;
 
