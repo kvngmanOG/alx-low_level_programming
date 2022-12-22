@@ -4,12 +4,12 @@
  * _strcmp - function compare 2 strings
  * @s1: 1
  * @s2: 2
- * Return: 0, neg, pos
+ * Return: 0, negative , positive
  */
 
 int _strcmp(char *s1, char *s2)
 {
-int i = 0; 
+int i = 0;
 int diff = 0;
 
 while (1)
