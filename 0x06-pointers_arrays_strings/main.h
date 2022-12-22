@@ -17,4 +17,4 @@ void print_buffer(char *b, int size);
 char *add_strings(char *n1, char *n2, char *r, int r_index);
 int _putchar(char c);
 
-#endif /*MAIN_H*/
+#endif
