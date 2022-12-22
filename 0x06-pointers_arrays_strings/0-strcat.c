@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_stract - concatenates the string pointed @src
+ * *_stract - concatenates the string pointed @src
  * _stract: concatenates the string
  * @dest: string that will be appended
  * @src: string to be concatenated
