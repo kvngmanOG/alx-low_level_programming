@@ -2,18 +2,19 @@
 
 /**
  * string_toupper - changes cases
- * @str: para
+ * @ch: para
  * Return: returns a charscter
  */
 
-char *string_toupper(char *str)
+char *string_toupper(char *ch)
 {
-int index = 0;
+int i = 0;
 
-while (str[index])
+while (*(ch + i) != '\0')
 {
-if (str[index] >= 'a' && str[index] <= 'z')
-str[index] -= 32;
+if (*(ch + i) >= 97 && *(ch + i) >= 122)
+*(ch + i) = *(ch + i) - ' ';
+i++;
 }
-return (str);
+return (ch);
 }
