@@ -22,7 +22,7 @@ else
 {
 return (1);
 }
-
+}
 /**
  * is_prime_number - checks ffor prime num
  * @n: number
