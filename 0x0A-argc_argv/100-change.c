@@ -4,7 +4,7 @@
  * main - print coins left
  * @args: entry
  * @argv: vector
- * Return: 0
+ * Return: zero
  */
 
 int main(int args, char *argv[])
@@ -38,6 +38,6 @@ else
 break;
 coins += 1;
 }
-print("%d\n", coins);
+printf("%d\n", coins);
 return (0);
 }
