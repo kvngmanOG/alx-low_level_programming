@@ -11,7 +11,7 @@ int _strlen(char *string)
 int i;
 
 for (i = 0; string[i] != '\0'; i++)
-;
+	;
 return (i);
 }
 /**
@@ -50,3 +50,4 @@ ptr[i + j] = s2[j];
 ptr[i + j] = '\0';
 
 return (ptr);
+}
