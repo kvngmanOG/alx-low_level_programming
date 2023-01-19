@@ -4,7 +4,7 @@
 
 /**
  * print_numbers - print numbers
- * @separator: string to be printed between 
+ * @separator: string to be printed between
  * @n: numbers of integers
  * Return: void
  */
