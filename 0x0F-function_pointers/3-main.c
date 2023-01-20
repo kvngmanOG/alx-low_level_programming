@@ -1,9 +1,9 @@
 #include "3-calc.h"
 /**
- * main - main
+ * main - check arguments
  * @argc: argument count
  * @argv: vector
- * return: error if
+ * Return: error if numbers
  */
 int main(int argc, char *argv[])
 {
